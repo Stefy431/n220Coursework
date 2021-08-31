@@ -19,6 +19,7 @@ function draw() {
     ellipse(560, 520, 80, [80])
     fill(81, 156, 85);
     strokeWeight(2)
+    
     rect(500, 610, 10, 250)
 
     line(500, 720, 550, 600)
