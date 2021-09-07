@@ -1,15 +1,29 @@
-var coord = 0;
+var xcoord = 0;
+var ycoord = 250;
+
 
 function setup() {
     createCanvas(800, 600)
     background('red')
 }
 
-function draw() {
-    coord = coord +5;
 
+
+function draw() {
     
-    circle(coord, 250, 100)
+    xcoord +=5;
+
+    if (xcoord >= 800) {
+        xcoord=0;
+    }
+
+    circle(xcoord, ycoord, 100)
     
     
+
+
+       
+    
+
 }
+
