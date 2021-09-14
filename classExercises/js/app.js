@@ -1,7 +1,14 @@
 function setup() {
     createCanvas(400, 400);
-    circle(250, 50, 40);
+    
+}
+
+function mousePressed() {
+    if (radius <= 100) {
+        radius = radius + 5;
+    }
 }
 function draw() {
-    circle(mouseX, mouseY, math.sinframeCount / 100*100);
+    fill(0);
+    circle(mouseX, mouseY, radius);
 }

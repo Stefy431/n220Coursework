@@ -12,7 +12,6 @@ function setup() {
 function draw() {
     
     xcoord +=5;
-
     if (xcoord >= 800) {
         xcoord=0;
     }
