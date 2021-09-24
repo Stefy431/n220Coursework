@@ -1,20 +1,20 @@
-var rectxxyy = [];
+var nothing = [];
 function setup() {
     createCanvas(800,800);
     background("red")
 }
 function draw() {
 
-    for (var i=0; i<rectxxyy.length; i++) {
-        fill(rectxxyy[i][2])
-        rect(rectxxyy[i][0], rectxxyy[i][1], 100, 100);
+    for (var i=0; i<nothing.length; i++) {
+    
+        rect(nothing[i][0], nothing[i][1], 20, 20);   //start with empty array, which connects to the mousePressed function
 
-        rectxxyy[i][1] += 1; 
+        nothing[i][1] += 5;   //frame rate is 5? has a weird trail that i have to fix
     }
 }
 
 function mousePressed() {
-    rectxxyy.push([mouseX,mouseY, random(255)])
+    nothing.push([mouseX,mouseY])   //starts with empty array but everytime it pushes the mouse it adds to the array, 
 }
 
-console.log(rectxxyy)
+console.log(nothing)  //to check the console, should start with empty array
