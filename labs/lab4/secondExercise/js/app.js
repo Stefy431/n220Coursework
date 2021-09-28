@@ -7,7 +7,7 @@ function draw() {
 
     for (var i=0; i<nothing.length; i++) {
     
-        rect(nothing[i][0], nothing[i][1], 20, 20);   //start with empty array, which connects to the mousePressed function
+        rect(nothing[i][0], nothing[i][1], 20, 20);   //start with empty array, which connects to the mousePressed function; size is 20
 
         nothing[i][1] += 5;   //frame rate is 5? has a weird trail that i have to fix
     }
