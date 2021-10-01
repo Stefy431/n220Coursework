@@ -44,16 +44,44 @@ for(i=4; i >=0; i--) {
 //Given the array: let words = [ "Indiana", "University", "Purdue", "University", "Indianapolis" ], 
 //write a loop that capitalizes the words in the array using the .toUpperCase() string method. Log the modified array out to the console.
 
-var capital = []; 
+/* var capital = []; 
 let words = [ "Indiana", "University", "Purdue", "University", "Indianapolis" ]
 
 for(i=0; i<=4; i++) {
-    capital = (words[i].toUpperCase)
+    capital = (words[i])
 
     console.log(capital); 
 }
 
+*/
 
+let thisarr = [];
+let newarr = []; 
+
+for(var i = 0; i<100; i++) {
+    thisarr[i] = i; 
+
+}
+
+if(thisarr[i] > 50) {
+    newarr = thisarr.splice(i, 1); 
+}
+
+console.log(thisarr)
+
+//thisarr.splice(0, 50)
+
+
+//var elem = []
+
+
+
+
+//let examp = thisarr[i]
+
+/*if(examp >=50) {
+    splice(thisarr, value, position)
+} */
 
 
 
