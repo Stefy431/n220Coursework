@@ -15,7 +15,6 @@ function setup() {
        //boxxx.height.onlick = heig + .1
    }
    */
-   function boxIncrease ()
  
 
     document.body.appendChild(boxxx); 

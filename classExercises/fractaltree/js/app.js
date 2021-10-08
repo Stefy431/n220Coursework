@@ -1,15 +1,15 @@
-//function setup() {
-    //createCanvas(800, 800)
+function setup() {
+    createCanvas(800, 800)
 
 
 //}
  
-/*var startx = 200
-var branchy = 650
-function draw() {
+//var startx = 200
+//var branchy = 650
+//function draw() {
 
 
-
+/*
 
     line(startx, 800, 200, branchy)
     line(startx, branchy, 100, 550)
@@ -23,7 +23,7 @@ function draw() {
 */
 
 
-let oos = [ 15, 22, 10, 5 ];
+/*let oos = [ 15, 22, 10, 5 ];
 let ahs = [ "#ed1a80", "#fcba03", "#ed1a80", "#fcba03" ]
 
 function setup() {
@@ -68,8 +68,37 @@ function draw() {
   for( let i = 0; i < oos.length; i++) {
     fill(ahs[i]);
     circle(sin(i) * 40, cos(i)* 40, oos[i]);
-  }
+  } */
+
+
   
+  let meeples = [];
+  let meeplesjob = []; 
+  
+
+  function addAge() {
+    for(let i =0; i<20; i++) {
+      meeples.push( {name: "Meeple #"+i, age: Math.floor(Math.random() * 50) })
+    }
+    meeples[i].age++;
+
+    job = ["teacher", "doctor", "pilot"]; 
+
+    if(meeples.age >= 18) {
+      for(let i=0; i<=3; i++) {
+        meeplesjob.push( { job: math.floor(math.random() * job[i]) })
+    }
+
+    
+
+
+
+
+
+  }
+
+
+}
 }
 
 

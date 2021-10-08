@@ -8,7 +8,7 @@ function setup() {
     thisdiv.style.backgroundColor = "red"; 
 
     thisdiv.onmouseover = "thisdiv.style.backgroundColor = 'black'"; 
-    thisdiv.onmouseout = "thisdiv.style.backgroundColor = 'blue'"; 
+    thisdiv.onmouseout = "thisdiv.style.backgroundColor = 'blue'"; //cant get this to work 
 
     console.log(thisdiv); 
 }
