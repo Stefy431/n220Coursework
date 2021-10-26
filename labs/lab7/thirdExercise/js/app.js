@@ -12,25 +12,25 @@ let txtUser = document.getElementById("txtUser");
 
 function guessIt() {  
 
-    let y = guessNumber.value;
+    let y = guessNumber.value;    // user number guess
     
-    var x = Math.floor(Math.random() * 20 + 1);
+    var x = Math.floor(Math.random() * 20 + 1);   //computer guess
     
-    let txtUser = document.getElementById("txtUser"); 
+    let txtUser = document.getElementById("txtUser");   //placing this here for now
 
-    if(y == x) {
-
+    if(y == x) {    //is number is exact
+  
         txtUser.innerHTML = "perfect "; 
 
-    } else if( y < x) {
+    } else if( y < x) {  //if number is lower
 
         txtUser.innerHTML = "too low "; 
-    } else {
+    } else {  //every thing else aka greater
 
         txtUser.innerHTML = "too high "; 
     }
     
-    y = ""; 
+    guessNumber.value = "";  //clear the value
 
     
 }

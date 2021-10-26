@@ -1,9 +1,9 @@
-let txtName = document.getElementById("txtName")
+let txtName = document.getElementById("txtName") //getting the input 
 
 function greetMe() {
 
-    let username = "Hello " + txtName.value; 
+    let username = "Hello " + txtName.value; //input value + greeting
 
-    console.log(username); 
+    console.log(username);  //log the code onto console. 
 
 }

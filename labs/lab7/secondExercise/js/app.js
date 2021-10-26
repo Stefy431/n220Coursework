@@ -1,17 +1,12 @@
-let billamount = document.getElementById("billAmount"); 
+//let billamount = document.getElementById("billAmount"); //was not working up here
 
 function calculateTip() {
 
-    let bill = billamount.value; 
-
-    let tiptotal = (bill*(18/100)); 
-    let tiptotal = tiptotal; 
-
-    let totaleverything = bill + tiptotal
-
+    var bill = Number(document.getElementById("billAmount").value);   //getting value as a numerical one
     
-    
-    console.log(totaleverything)
+    var tip = bill * .18;   //tip is bill * 18%
+    var total = bill + tip;  //total amount is bill amount + the tip
 
-    console.log("Tip: " + tiptotal + "Total: " + totaleverything); 
+
+    console.log("Tip: " + tip + "Total: " + total);    // logging the code onto the console
 }
