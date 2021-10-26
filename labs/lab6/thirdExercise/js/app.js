@@ -6,11 +6,12 @@ function setup() {
         x: 50,    //x value
         y: 50,    //y value
         color: "green",    //color
-        update: function() {    
+        update: function() {   
+
             fill(this.color)
             square(this.x, this.y, 100)
-            this.x +=1;
-            this.y +=1; //
+            this.x +=.2;
+            this.y +=.2; // rate in which its going
 
         }
     }

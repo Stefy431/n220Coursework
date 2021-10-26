@@ -1,7 +1,7 @@
-function setup() {
+/*function setup() {
     createCanvas(800, 800)
 
-
+*/
 //}
  
 //var startx = 200
@@ -71,7 +71,7 @@ function draw() {
   } */
 
 
-  
+ /* 
   let meeples = [];
   let meeplesjob = []; 
   
@@ -99,6 +99,42 @@ function draw() {
 
 
 }
+}
+
+*/
+
+
+
+
+
+let txtInput = document.getElementById("txtInput"); 
+let txtInput2 = document.getElementById("txtInput2"); 
+let dvOutput = document.getElementById("dvOutput"); 
+
+//let doubleword = []
+
+/*function repeatWord() {
+
+  let word = txtInput.value; 
+
+  let doubleword = (word + word); 
+  console.log(doubleword)
+
+
+}
+*/
+
+function repeatWord() {
+
+  let word = txtInput.value; 
+  let numb = txtInput2.value; 
+
+  let finalstring = word; 
+  for(i=0; i<numb; i++) {
+    finalstring = finalstring + word; 
+  }
+
+  console.log(finalstring)
 }
 
 
