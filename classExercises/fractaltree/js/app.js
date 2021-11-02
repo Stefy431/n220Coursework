@@ -107,9 +107,9 @@ function draw() {
 
 
 
-let txtInput = document.getElementById("txtInput"); 
+/*let txtInput = document.getElementById("txtInput"); 
 let txtInput2 = document.getElementById("txtInput2"); 
-let dvOutput = document.getElementById("dvOutput"); 
+let dvOutput = document.getElementById("dvOutput"); */
 
 //let doubleword = []
 
@@ -124,7 +124,7 @@ let dvOutput = document.getElementById("dvOutput");
 }
 */
 
-function repeatWord() {
+/*function repeatWord() {
 
   let word = txtInput.value; 
   let numb = txtInput2.value; 
@@ -137,7 +137,26 @@ function repeatWord() {
   console.log(finalstring)
 }
 
+*/
 
+
+
+
+let f1 = document.getElementById("fortuneOutput"); 
+
+
+function fortunePress() {
+  
+
+  let myArray = ["a", "b", "c"]; 
+
+  let i = Math.floor(Math.random() * myArray.length);
+  
+  //let randEntry = myArray[randIndex];
+  f1.innerHTML = myArray[i];
+  
+  console.log(i)
+}
     
 
 
