@@ -142,7 +142,7 @@ let dvOutput = document.getElementById("dvOutput"); */
 
 
 
-let f1 = document.getElementById("fortuneOutput"); 
+/*let f1 = document.getElementById("fortuneOutput"); 
 
 
 function fortunePress() {
@@ -156,7 +156,76 @@ function fortunePress() {
   f1.innerHTML = myArray[i];
   
   console.log(i)
+} */
+
+
+
+
+//let vow = "b"
+
+
+//function determineV(vow, y) {
+
+  
+//(vow.includes("a") ) {
+
+  //}
+//if(vow == "a" || vow=="e" || vow=="i" || vow=="o" || vow=="u" || vow=="y" ) {
+ // y == true; 
+//} else {
+  //y = false; 
+//}
+
+//return y; 
+
+
+ 
+
+
+
+//if function is a, e, i, o, u, y 
+//then vow is true 
+//if not then its false
+
+//}
+
+//console.log(y)
+
+
+
+
+function hello() {
+  
+  let grid = [
+
+    [ 0,1,0 ],
+  
+    [ 0,0,2 ],
+  
+    [ 0,0,0 ]
+  
+  ]
+
+  
+  for(i=0; i< /* idk */ 5; i++) {
+
+  }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
 
 
