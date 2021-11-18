@@ -193,25 +193,21 @@ function fortunePress() {
 
 
 
-
-function hello() {
-  
-  let grid = [
-
-    [ 0,1,0 ],
-  
-    [ 0,0,2 ],
-  
-    [ 0,0,0 ]
-  
-  ]
+function doThing() {
 
   
-  for(i=0; i< /* idk */ 5; i++) {
 
   }
 
+randomeselect = [rock, paper, scissors]; 
+
+for(i=0; i.randomeselect; i++) {
+  select = Math.random(randomeselect[i])
 }
+
+
+console.log(Math.random(1* randomeselect))
+
 
 
 

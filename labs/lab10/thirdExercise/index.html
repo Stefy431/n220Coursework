@@ -7,6 +7,12 @@
     <title>Document</title>
 </head>
 <body>
+    <p>what should you do today?</p>
+    <button id="numberOne" data-answers="nothing" onclick="revealAnswer(this.id)">nothing</button>
+    <button id="numberTwo" data-answers="maybe nothing" onclick="revealAnswer(this.id)">maybe nothing</button>
+    <button id="numberThree" data-answers="whatever you want" onclick="revealAnswer(this.id)">whatever you want</button>
+
+    <div id="revealedquestion"></div>
      
     <script src="js/app.js"></script>
 </body>
