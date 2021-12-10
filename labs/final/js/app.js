@@ -25,7 +25,7 @@ function checkFirstColor() {
    // for(x=0; x<colors.length; x++) {
         if(compguess == userguessvs) {
             output.innerHTML = "You Win";
-            var numbofwintries = numbofwintries +1; 
+            numbofwintries = numbofwintries +1; 
     
             //results.innerHTML = "Number of wins: " + numbofwintries + "" + "Number of losses: " + wrongguess; 
             
@@ -39,12 +39,13 @@ function checkFirstColor() {
             console.log(coolguesses); 
             output.innerHTML = "cool guesses so far that are not on my color list:" + coolguesses[coolguesses.length]
         } */
-         else if (userguessvs == null) {
-            output.innerHTML = "please enter a color!"
+         else if (userguessvs == null) {  //when the user doesn't put anything
+            output.innerHTML = "please enter a color!" 
+            timeThing()
         
         }
         else {
-            output.innerHTML = "Not Quite! "; 
+            output.innerHTML = "Not Quite! ";  //when its not right
             something.innerHTML = "Click the square to reveal the answer."; 
             wrongguess = wrongguess +1; 
             userguessvs = ""; 
